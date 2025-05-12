@@ -21,3 +21,18 @@ npm install
 npx react-native run-android # Для Android
 npx react-native run-ios # Для iOS
 ```
+
+### ЕСЛИ СЫПЯТЬСЯ ОШИБКИ
+
+```bash
+npm outdated
+```
+
+```bash
+npm update
+```
+
+Если необходимо обновить определенную зависимость:
+```bash
+npm install <package-name>@latest
+```
